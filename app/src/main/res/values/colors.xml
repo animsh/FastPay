@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorSilver">#dddddd</color>
+    <color name="colorBlack">#000000</color>
+
+    <!-- color for button style -->
+
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+    <!-- color for tab and text -->
+
+    <color name="tab_indicator_grey">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+    <color name="blue_button">#1f4aff</color>
+
+    <!-- light gray background-->
+
+    <color name="light_gray_background_color">#f8f8f8</color>
+
+
+    <color name="home">#5B37B7</color>
+    <color name="like">#C9379D</color>
+    <color name="search">#E6A919</color>
+    <color name="profile">#1194AA</color>
+
+    <color name="green">#21bf73</color>
+    <color name="red">#ff0000</color>
+    <color name="flipkart">#0C73EB</color>
+    <color name="yellow">#ffcc00</color>
+</resources>

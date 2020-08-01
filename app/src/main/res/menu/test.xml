@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/online_orders"
+        android:icon="@drawable/ic_home"
+        android:title="Online Orders"
+        app:cnb_iconColor="@color/flipkart"/>
+
+    <item
+        android:id="@+id/offline_orders"
+        android:icon="@drawable/ic_activity"
+        android:title="Offline Orders"
+        app:cnb_iconColor="@color/flipkart"/>
+
+    <item
+        android:id="@+id/products"
+        android:icon="@drawable/ic_settings"
+        android:title="Products"
+        app:cnb_iconColor="@color/flipkart" />
+
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/product_details_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:elevation="5dp">
+
+    <TextView
+        android:id="@+id/product_detail_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:background="#ffffff"
+        android:padding="16dp"
+        android:text="Product Detail"
+        android:textColor="@color/intro_description_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/product_detail_body"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="16dp"
+        android:text="MAGGI 2-Minute Masala Noodles is an instant noodles brand manufactured by Nestle. \n\nMade with the finest quality spices and ingredients. \nEach portion (70g) provides 15% of your daily Iron requirement. \nReady in 2 minutes, perfect meal for a hang out or house party. \nContains a noodle cake and the Favourite Masala Tastemaker inside, for a quick 2 minute preparation. "
+        android:textColor="@color/intro_title_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_detail_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

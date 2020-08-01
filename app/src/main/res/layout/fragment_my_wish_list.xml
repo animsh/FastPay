@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".users.fragments.MyWishListFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_wish_list_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <ImageView
+        android:id="@+id/empty_cart_imag"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/empty_wishlist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/empty_cart_tv2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Looks like you haven't added anything to your wish-list yet"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/empty_cart_imag"
+        app:layout_constraintStart_toStartOf="@+id/empty_cart_imag"
+        app:layout_constraintTop_toBottomOf="@+id/empty_cart_imag" />
+
+    <TextView
+        android:id="@+id/empty_cart_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Your wish-list is empty!!. "
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/empty_cart_imag"
+        app:layout_constraintEnd_toEndOf="@+id/empty_cart_imag"
+        app:layout_constraintStart_toStartOf="@+id/empty_cart_imag" />
+</androidx.constraintlayout.widget.ConstraintLayout>

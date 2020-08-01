@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">FastPay</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_skip">Skip</string>
+    <string name="txt_not_admin">I am not Admin</string>
+    <string name="txt_admin">I am Admin</string>
+    <string name="btn_login">Login</string>
+    <string name="txt_welcome">Welcome\nBack!</string>
+    <string name="txt_dont_have_account">Don\'t have account?</string>
+    <string name="txt_sign_up_page">SIgn Up</string>
+    <string name="label_username">Email:</string>
+    <string name="label_password">Password:</string>
+    <string name="txt_forgot_password_page">forgot password?</string>
+    <string name="image_login">TODO</string>
+    <string name="txt_login_page">Login</string>
+    <string name="textView3">Already have account?</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="head_sign_up_page">Sign Up</string>
+    <string name="set_name">Name</string>
+    <string name="agreeMent">I have read user agreement and I accept it</string>
+    <string name="set_password">Password</string>
+    <string name="set_address">Re-enter Password</string>
+    <string name="set_phone">Phone</string>
+    <string name="imageView">TODO</string>
+    <string name="intro_img">TODO</string>
+    <string name="intro_descriptipn">TextView</string>
+    <string name="intro_title">TextView</string>
+    <string name="_50_g">50 g</string>
+    <string name="dry_fruit_mix">Dry Fruit - Mix</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="india_states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
