@@ -5,9 +5,9 @@ Firebase is used for all the tasks of users such as user registration and login,
 ## Features Integrated
 - Wishlist
 - Cart
-- Profiles Page
+- Profile Page
 - Unlimited Products Listing
-- Order Placed Page with unique order number
+- Order History with unique order number
 - Message Notification for placed orders and otp verification
 - Paytm integration for Payment
 - And much much more , download apk and try to discover !
@@ -21,3 +21,4 @@ Firebase is used for all the tasks of users such as user registration and login,
  - android shopping cart source code download
  - android shopping app source code free download
  - open source android ecommerce app
+ - open for pull requests with good suggestions and corrections 
